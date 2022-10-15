@@ -13,5 +13,16 @@ public class PrincipalReloj {
         t.visualizar();
         t.tic();
         t.visualizar();
+        System.out.println("------------------------");
+        System.out.print("Ingrese la hora=> ");
+        h=sx.nextInt();
+        System.out.print("Ingrese la minutos=> ");
+        m=sx.nextInt();
+        System.out.print("Ingrese la segundos=> ");
+        s=sx.nextInt();
+        t2.ponerALas(h, m, s);
+        t2.tic();
+        t2.tic();
+        t2.visualizar();
     }
 }

@@ -30,4 +30,10 @@ public class Reloj {
             }
         }
     }
+
+    public void ponerALas(int hora, int minuto, int segundo) {
+        this.hora = hora;
+        this.minuto = minuto;
+        this.segundo = segundo;
+    }
 }
